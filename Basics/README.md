@@ -11,3 +11,4 @@ Topics covered ✅: <br>
 - Histogram <br>
 - Pie Chart<br>
 - Grid<br>
+- Sheet style<br>

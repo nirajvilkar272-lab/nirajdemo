@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 x = [1,2,3,4]
 y = [10,20,30,35]
 plt.plot(x,y) # Plots data 
@@ -59,7 +60,13 @@ plt.plot([1, 2, 3], [1, 4, 9])
 plt.grid(True)
 plt.show()
 
-
-
-
-
+# Sheet style
+plt.style.use("classic") # plain, minimal style
+plt.style.use("ggplot")  # grey background ,white grid
+plt.style.use("seaborn") # soft blue theme
+plt.style.use("fivethirtyeight") # grey background,bold lining,simple styling
+plt.style.use("dark_background") # dark theme(black background)
+plt.style.use("grayscale") # Grey background ,bold lining
+plt.style.use("bmh") # clean modern look with dotted fade gridlines
+plt.style.use("Solarize_Light2") # soft yellow background
+plt.style.use("_mpl-gallery") # similar to solarsize ,bold lines
